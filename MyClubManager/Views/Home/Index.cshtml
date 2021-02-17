@@ -35,16 +35,26 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">My Club Manager</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="~/Content/assets/img/logo.png" width="50px" style="float:left"/>
+                  <table>
+                      <tr>
+                          <td style="">My Club Manager</td>
+                      </tr>
+                      <tr>
+                          <td style="font-size:12px">MORC Creations Software</td>
+                      </tr>
+                  </table>
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Tour</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Examples</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#brochure">Tour</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#button">Examples</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#information">Pricing</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Downloads</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">FAQ</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Support</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="@Url.Action("Details", "Information")">About</a></li>
             </ul>
         </div>
     </div>
@@ -65,7 +75,7 @@
     </div>
 </header>
 <!-- Brochure-->
-<section class="page-section bg-primary" id="about">
+<section class="page-section bg-primary" id="brochure">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
@@ -78,22 +88,19 @@
     </div>
 </section>
 <!-- Button-->
-<section class="page-section" id="services">
+<section class="page-section" id="button">
     <div class="container">
         <h2 class="text-center mt-0">Hot Link</h2>
         <hr class="divider my-4" />
         <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Download Brochure</a>
+            <div class="col-lg-4 col-md-6 text-center">
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Ask Sales Question</a>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Download Brochure</a>
+            <div class="col-lg-4 col-md-6 text-center">
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Request a Demonstration</a>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Download Brochure</a>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Download Brochure</a>
+            <div class="col-lg-4 col-md-6 text-center">
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Watch a Webinar</a>
             </div>
         </div>
     </div>

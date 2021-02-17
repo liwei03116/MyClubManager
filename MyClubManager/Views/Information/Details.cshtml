@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Information Page";
+    Layout = "~/Views/Shared/_InfoLayout.cshtml";
+}
+
+
+<div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+        <div class="custom-menu">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                <i class="fa fa-bars"></i>
+                <span class="sr-only">Toggle Menu</span>
+            </button>
+        </div>
+        <div class="p-4">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="~/Content/assets/img/logo.png" width="50px" style="float:left" />
+                <table style="float:right">
+                    <tr>
+                        <td style="color:white">My Club Manager</td>
+                    </tr>
+                    <tr>
+                        <td style="font-size:12px; color:white">MORC Creations Software</td>
+                    </tr>
+                </table>
+            </a>
+            <ul class="list-unstyled components mb-5">
+                <li class="active">
+                    <a href="#"><span ><img src="~/Content/assets/img/infoimg/club.png" width="20px" /></span> Club Details</a>
+                </li>
+                <li>
+                    <a href="#"><span ><img src="~/Content/assets/img/infoimg/member.png" width="20px" /></span> Member Details</a>
+                </li>
+                <li>
+                    <a href="#"><span ><img src="~/Content/assets/img/infoimg/communicate.png" width="20px" /></span> Communications</a>
+                </li>
+                <li>
+                    <a href="#"><span ><img src="~/Content/assets/img/infoimg/eventCalendar.png" width="20px" /></span> Event Calendar</a>
+                </li>
+                <li>
+                    <a href="#"><span ><img src="~/Content/assets/img/infoimg/image.png" width="20px" /></span> Image Gallery</a>
+                </li>
+                <li>
+                    <a href="#"><span ><img src="~/Content/assets/img/infoimg/payments.png" width="20px" /></span> Subscription & payments</a>
+                </li>
+                <li>
+                    <a href="#"><span ><img src="~/Content/assets/img/infoimg/newsletters.png" width="20px" /></span> Newsletters</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Home")"><span ><img src="~/Content/assets/img/infoimg/mobile.png" width="20px" /></span> Mobile Device Enabled</a>
+                </li>
+            </ul>
+
+            <br />
+
+
+            <div class="footer fixed-bottom" style="margin-left:20px">
+                <p>
+                    Copyright &copy; MORC Creations 2021
+                </p>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5 pt-5">
+        <h2 class="mb-4">Club Details</h2>
+        <p>This section provides formatted information relating to the club details and is obtained form the db (perhasps stored in rtf or html format).</p>
+    </div>
+</div>
+
+

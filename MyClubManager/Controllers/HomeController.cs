@@ -26,5 +26,6 @@ namespace MyClubManager.Controllers
 
             return View();
         }
+
     }
 }
